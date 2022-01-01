@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.minhtoi96.quan_ly_xe_nha_tro.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        android:background="@drawable/c">
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/btnquet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="QUÉT BIỂN SỐ"
+            android:textColor="#d50000"
+            android:textSize="30dp"
+            android:layout_margin="8dp"
+            android:textStyle="bold|italic"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="103dp"
+            android:background="@android:color/transparent"/>
+
+        <Button
+            android:id="@+id/btnnhap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tra Biển Số"
+            android:textColor="#ffea00"
+            android:textSize="30dp"
+            android:layout_margin="8dp"
+            android:textStyle="bold|italic"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="167dp"
+            android:background="@android:color/transparent"/>
+
+        <Button
+            android:id="@+id/btnds"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DANH SÁCH biển số"
+            android:textColor="#d500f9"
+            android:textSize="30dp"
+            android:layout_margin="8dp"
+            android:textStyle="bold|italic"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="167dp"
+            android:background="@android:color/transparent"/>
+
+        <Button
+            android:id="@+id/btnthoat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="THOÁT"
+            android:textColor="#ff6d00"
+            android:textSize="30dp"
+            android:layout_margin="8dp"
+            android:textStyle="bold|italic"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="230dp"
+            android:background="@android:color/transparent"/>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>
